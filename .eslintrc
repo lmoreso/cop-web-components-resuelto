@@ -1,0 +1,17 @@
+// Use this file as a starting point for your project's .eslintrc.
+// Copy this file, and add rule overrides as needed.
+{
+  "extends": "airbnb",
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "document": true,
+    "HTMLElement": true,
+    "window": true,
+    "CustomEvent": true
+  },
+  "rules": {
+    "react/prop-types": ["error", { "ignore": [], "customValidators": [], "skipUndeclared": true }]
+  }
+}

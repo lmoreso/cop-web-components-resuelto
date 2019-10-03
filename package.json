@@ -1,0 +1,60 @@
+{
+  "name": "cop-web-components",
+  "version": "1.0.0",
+  "description": "COP WEB COMPONENTS",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "dev": "webpack -d -w",
+    "pro": "webpack -p"
+  },
+  "author": "Marc Ferret && Xavi Molina",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "unmockedModulePathPatterns": [
+      "react",
+      "enzyme",
+      "jest-enzyme"
+    ]
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "~7.3.3",
+    "@babel/plugin-transform-react-jsx": "~7.3.0",
+    "@babel/plugin-transform-runtime": "~7.2.0",
+    "@babel/preset-env": "~7.3.1",
+    "@babel/preset-react": "~7.0.0",
+    "babel-jest": "~24.1.0",
+    "babel-loader": "~8.0.4",
+    "css-loader": "~2.1.0",
+    "dotenv": "~6.2.0",
+    "dotenv-webpack": "~1.7.0",
+    "enzyme": "~3.9.0",
+    "enzyme-adapter-react-16": "~1.9.1",
+    "eslint": "~5.14.1",
+    "eslint-config-airbnb": "~17.1.0",
+    "eslint-loader": "~2.1.1",
+    "eslint-plugin-import": "~2.16.0",
+    "eslint-plugin-jest": "~22.4.1",
+    "eslint-plugin-jsx-a11y": "~6.2.1",
+    "eslint-plugin-react": "~7.12.4",
+    "extract-text-webpack-plugin": "v4.0.0-alpha.0",
+    "jest": "~24.7.1",
+    "jest-enzyme": "~7.0.0",
+    "node-sass": "~4.11.0",
+    "postcss-scss": "~2.0.0",
+    "sass-loader": "~7.1.0",
+    "webpack": "~4.29.5",
+    "webpack-cli": "~3.2.3",
+    "webpack-dev-server": "~3.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "~7.2.5",
+    "@babel/runtime": "~7.3.1",
+    "clean-webpack-plugin": "~1.0.1",
+    "es6-promise": "~4.2.6",
+    "react": "~16.8.2",
+    "react-addons-css-transition-group": "~15.6.2",
+    "react-dom": "~16.8.2"
+  }
+}
